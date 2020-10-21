@@ -10,10 +10,11 @@ ini_set('error_reporting', E_ALL);
 // define( 'DB_USER', 'kosuke');
 // define( 'DB_PASS', 'komazawataxidesu');
 // define( 'DB_NAME', 'board');
-define( 'DB_HOST', 'us-cdbr-east-02.cleardb.com');
+
 define( 'DB_USER', 'baad3d3f5e8bb4');
 define( 'DB_PASS', '018815c8');
 define( 'DB_NAME', 'heroku_c66346a7c074732');
+define('PDO_DSN','mysql:host=us-cdbr-east-02.cleardb.com;dbname=' . DB_NAME);
 
 // タイムゾーン設定
 date_default_timezone_set('Asia/Tokyo');
